@@ -107,6 +107,8 @@ hr {
 	background-color: white;
 }
 
+/*----*/
+
 .accordion .card-header:after {
 	content: '+';
 	color: white;
@@ -119,4 +121,13 @@ hr {
 }
 .accordion .card-header.open:after {
 	transform: rotate(45deg);
+}
+
+/*----*/
+.carousel-inner {
+	padding: 0.5rem 4rem;
+	padding-bottom: 4rem;
+	color: white;
+	background-color: hsl(220, 90%, 30%);
+	border-radius: 0.5rem;
 }
