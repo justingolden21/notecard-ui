@@ -106,3 +106,17 @@ hr {
 	color: hsl(220, 90%, 30%);
 	background-color: white;
 }
+
+.accordion .card-header:after {
+	content: '+';
+	color: white;
+	font-weight: bold;
+	font-size: 200%;
+	cursor: pointer;
+	float: right;
+	margin-top: -4rem;
+	transition: transform 0.15s linear;
+}
+.accordion .card-header.open:after {
+	transform: rotate(45deg);
+}
