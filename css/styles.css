@@ -1,0 +1,108 @@
+body {
+	color: hsl(220, 90%, 10%);
+	margin: 2rem !important;
+	line-height: 2;
+	/*https://leaverou.github.io/css3patterns/#lined-paper*/
+	background-color: white;
+	background-image:
+	linear-gradient(90deg, transparent 31px, hsl(180, 30%, 80%) 31px, hsl(180, 30%, 80%) 33px, transparent 33px),
+	linear-gradient(hsl(220, 50%, 90%) .1rem, transparent .1rem);
+	background-size: 100% 2rem;
+}
+
+::-moz-selection {
+	background: hsl(220, 90%, 90%) !important;
+}
+::selection {
+	background: hsl(220, 90%, 90%) !important;
+}
+
+.nav-link {
+	color: hsl(220, 90%, 30%) !important;
+}
+.nav-link:hover {
+
+}
+.nav-link.active {
+
+}
+.nav-pills {
+	margin-top: 0.75rem;
+}
+.nav-pills .nav-link {
+	padding: 1rem 1rem !important;
+	margin: 0rem 0rem !important;
+	border-radius: 0.5rem !important;
+}
+.nav-pills .nav-link:hover {
+	background-color: hsl(220, 90%, 95%);
+}
+.nav-pills .nav-link.active {
+	color: white !important;
+	background-color: hsl(220, 90%, 30%);
+}
+
+.nav-tabs .nav-link {
+	padding: 0.5rem 1rem !important;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	border-width: 2px;
+	border-bottom: 0;
+}
+.nav-tabs .nav-link:hover {
+	border-color: hsl(220, 50%, 90%);
+}
+.nav-tabs .nav-link.active {
+	border-color: hsl(220, 50%, 90%);
+	color: white !important;
+	background-color: hsl(220, 90%, 30%);
+	border-color: hsl(220, 90%, 30%);
+}
+.nav-tabs {
+	border-color: hsl(220, 50%, 90%);	
+	border-width: 2px;
+}
+.nav-tabs + .tab-content {
+	margin-top: 0.75rem;
+}
+
+hr {
+	border: 1px solid hsl(220, 50%, 90%);
+}
+
+.accordion .card {
+	border-radius: 0;
+	border-color: hsl(220, 50%, 90%);
+	border: 2px solid hsl(220, 50%, 90%);
+}
+.accordion>.card:first-of-type {
+	border-top-left-radius: 0.5rem !important;
+	border-top-right-radius: 0.5rem !important;
+}
+.accordion .card-header {
+		background-color: hsl(220, 90%, 30%);
+	border-color: hsl(220, 50%, 90%);
+	/*background-color: hsl(220, 50%, 90%);*/
+}
+.accordion .card-body {
+	border-color: hsl(220, 50%, 90%) !important;
+}
+.accordion .card-header .btn {
+	color: white;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	text-decoration: none;
+}
+.accordion .card-header .btn:hover {
+	color: hsl(220, 90%, 30%);
+	background-color: white;
+}
+.accordion .card-header .btn:not(.collapsed) {
+	color: hsl(220, 90%, 30%);
+	background-color: white;
+}
+
+.accordion .card-header .btn:focus {
+	color: hsl(220, 90%, 30%);
+	background-color: white;
+}
