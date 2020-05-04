@@ -14,4 +14,6 @@ $( ()=> {
 		else
 			$(evt.target).parent().parent().addClass('open');
 	});
+
+	$('.carousel').carousel('pause');
 });
