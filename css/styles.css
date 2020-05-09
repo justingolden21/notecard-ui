@@ -56,7 +56,6 @@ body {
 	border-color: hsl(220, 50%, 90%);
 }
 .nav-tabs .nav-link.active {
-	border-color: hsl(220, 50%, 90%);
 	color: white !important;
 	background-color: hsl(220, 90%, 30%);
 	border-color: hsl(220, 90%, 30%);
@@ -75,7 +74,7 @@ hr {
 
 .accordion .card {
 	border-radius: 0;
-	border-color: hsl(220, 50%, 90%);
+	/*border-color: hsl(220, 50%, 90%);*/
 	border: 2px solid hsl(220, 50%, 90%);
 }
 .accordion>.card:first-of-type {
